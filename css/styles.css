@@ -135,6 +135,10 @@ body {
 
 .lightbox__button:hover,
 .lightbox__button:focus {
-  background-color: rgba(0, 0, 0, 0.5);
-  transform: rotate(-20deg);
+  background-color: rgba(0, 0, 0, 0.5);}
+
+ 
+.lightbox__button:active {
+  transform: rotate(45deg);
+  background-color: white;
 }
